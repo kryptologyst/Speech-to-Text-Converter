@@ -1,0 +1,38 @@
+# Core dependencies
+streamlit>=1.28.0
+speechrecognition>=3.10.0
+pyaudio>=0.2.11
+pydub>=0.25.1
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Speech recognition engines
+openai-whisper>=20231117
+openai>=1.0.0
+azure-cognitiveservices-speech>=1.34.0
+
+# Data visualization
+plotly>=5.15.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Database
+# sqlite3 is built-in with Python, no need to install
+
+# Utilities
+python-dotenv>=1.0.0
+pathlib2>=2.3.7
+typing-extensions>=4.7.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# System dependencies (install separately)
+# For macOS: brew install portaudio
+# For Ubuntu/Debian: sudo apt-get install portaudio19-dev
+# For Windows: pip install pipwin && pipwin install pyaudio
